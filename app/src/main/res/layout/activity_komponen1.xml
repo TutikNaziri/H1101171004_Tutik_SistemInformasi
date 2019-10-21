@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".komponen1">
+
+    <Button
+        android:id="@+id/materi1"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="browser1"
+        android:text="@string/link_materi"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495" />
+
+    <Button
+        android:id="@+id/contoh1"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:text="CONTOH SYNTAX "
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/materi1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#000"
+        android:text="@string/materi_activity"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="284dp"
+        android:layout_height="319dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/activity_adalah_komponen_pada_aplikasi_android_yang_menampilkan_dan_mengatur_halaman_aplikasi_sebagai_tempat_interaksi_antara_pengguna_dengan_aplikasi_seperti_membuat_panggilan_telepon_mengambil_foto_mengirim_pesan_singkat_atau_mengirim_email_sebuah_activity_mengatur_satu_halaman_user_interface_aplikasi_sehingga_jika_sebuah_aplikasi_android_memiliki_beberapa_halaman_user_interface_yang_saling_berinteraksi_berarti_aplikasi_tersebut_memiliki_beberapa_activity_yangsaling_berinteraksi_untuk_lebih_jelasnya_dapat_dilihat_sebagai_berikut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
